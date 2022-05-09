@@ -1,4 +1,4 @@
-baseURL                          = "https://friendly-syrniki-5ab6a3.netlify.app/"   # Your domain name. Must end with "/"
+baseURL                          = "https://kerrysmart.ca/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
