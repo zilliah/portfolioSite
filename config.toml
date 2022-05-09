@@ -70,6 +70,10 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
+        url = "https://angel.co/u/kerrysmart"  # For a direct email link, use "mailto:test@example.org".
+        icon = "angellist" # icon name without the 'fa-'
+        icon_pack = "fa-brands"
+    [[params.social]]
         url = "mailto:kerry.z.smart@gmail.com"  # For a direct email link, use "mailto:test@example.org".
         icon = "envelope" # icon name without the 'fa-'
         icon_pack = "fa"
