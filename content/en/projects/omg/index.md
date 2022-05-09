@@ -3,7 +3,6 @@ title: Ottawa Mega Games
 weight: "3"
 
 ---
-![](/uploads/omg-photo.png)
 
 A website for the Ottawa Mega Games group: they run large-scale, in-person games in Ottawa, ON.
 
