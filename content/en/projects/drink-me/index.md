@@ -9,4 +9,4 @@ A cocktail picker: find cocktails based on name, ingredients, or get a random co
 
 [See the website here](https://zilliah.github.io/drinkMe/ "Drink Me Cocktail Picker")
 
-Built with HTML and CSS.  [Github repo](https://github.com/zilliah/omgSite "Drink Me Github repo").
+Built with HTML and CSS.  [Github repo](https://github.com/zilliah/drinkMe "Drink Me Github repo").
