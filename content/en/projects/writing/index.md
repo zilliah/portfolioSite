@@ -1,8 +1,12 @@
 ---
-title: "Writing"
-weight: 3
+title: Ottawa Mega Games
+weight: "3"
+
 ---
+![](/uploads/omg-photo.png)
 
-Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
+A website for the Ottawa Mega Games group: they run large-scale, in-person games in Ottawa, ON.
 
-To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop. Latte instant black extra aroma, instant, extra robusta variety skinny shop aged cup ristretto foam cortado. Bar galão skinny saucer est affogato sugar caffeine chicory sugar coffee, seasonal barista french press acerbic in chicory robust.
+[See the website here](https://ottawamegagames.netlify.app/ "Ottawa Mega Games")
+
+Built with HTML and CSS.
