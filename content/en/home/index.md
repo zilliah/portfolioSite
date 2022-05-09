@@ -1,6 +1,6 @@
 ---
-title: "Hi, I'm Introduction"
+title: Hi, I'm Kerry
 headless: true
----
 
-I'm a theme for Hugo.
+---
+I'm a full stack web developer: I make websites and web applications.
