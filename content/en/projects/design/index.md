@@ -1,13 +1,14 @@
 ---
-title: "Design"
-weight: 2
-resources:
-    - src: plant.jpg
-      params:
-          weight: -100
-project_timeframe: June-December
+title: Etch A Sketch
+weight: "4"
+resources: []
+project_timeframe: ''
+
 ---
+![](/uploads/eas-photo.png)
 
-This theme was designed by [Victoria Drake](https://victoria.dev). Go on, explore! 💪
+An online etch-a-sketch! Right-click on the board to switch between drawing and erasing.
 
-If you want to use it for your website, check out the section at the bottom of the main page. 👍
+[Play with it here](https://zilliah.github.io/etchasketch/ "Etch A Sketch site")
+
+Built with HTML, CSS, vanilla JavaScript. [Github repo](https://github.com/zilliah/etchasketch "Etch A Sketch Repo").
