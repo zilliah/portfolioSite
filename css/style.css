@@ -90,6 +90,34 @@ h1, h2 {
   padding: 1rem;
 }
 
+#how ol {
+  width: 80%;
+  margin: auto;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+#how li {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  
+  border: 2px solid var(--med-blue);
+}
+
+#how h4 {
+  display: inline;
+}
+
+#how li div {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+#how div p {
+  width: 60%;
+}
+
 #projects {
   display: grid;
 }
@@ -133,6 +161,11 @@ i {
   font-size: 2rem;
 }
 
+#how i {
+  display: block;
+  color: var(--med-blue);
+  font-size: 4rem;
+}
 
 p, ol {
   font-family: 'Nunito', sans-serif;  /* for paragraph text */
@@ -143,9 +176,7 @@ p, ol {
   color: var(--dark);
 }
 
-#how {
-  border-top: 2px solid var(--med-blue);
-}
+
 
 footer, #projects {
   background-color: var(--dark);
