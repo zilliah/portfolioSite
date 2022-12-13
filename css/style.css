@@ -9,7 +9,7 @@
 :root {
   --dark: #212c31;
   --med-blue: #19515f;
-  --med-yellow: #fcc81d;
+  --med-yellow: #ffedb4;
   --lightest: #ffffff;
 
   font-size: 62.5%;
@@ -37,7 +37,7 @@ nav ul, footer ul {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 nav ul li , footer ul li{
@@ -59,11 +59,9 @@ footer {
 }
 
 
-h1, h2 {
-  margin: 0;
+#hello h1, #hello h2, #hello h3 {
+  margin-top: 0;
 }
-
-
 
 #hello {
   height: 100vh;
@@ -108,7 +106,7 @@ h1, h2 {
   display: inline;
 }
 
-#how li div {
+#how li>div {
   display: flex;
   justify-content: space-around;
   padding: 2rem;
@@ -117,6 +115,10 @@ h1, h2 {
 #how div p {
   width: 60%;
 }
+
+/* .descr {
+  flex-direction: column;
+} */
 
 #projects {
   display: grid;
@@ -139,12 +141,16 @@ h1, h2 {
   border: 2px solid var(--dark);
 }
 
+#faq {
+}
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-h1, h3 {
-  /* text-align: center; */
+h1 {
   font-size: 5rem;
 }
 
@@ -152,8 +158,12 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3, h4 {
+  font-size: 1.7rem;
+}
+
 h3 {
-  font-size: 2.4rem;
+  font-weight: lighter;
 }
 
 i {
@@ -172,7 +182,7 @@ p, ol {
   font-size: 1.7rem;
 }
 
-#services, #how, #contact, #services i {
+#services, #how, #faq, #contact, #services i {
   color: var(--dark);
 }
 
