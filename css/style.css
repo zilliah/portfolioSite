@@ -9,7 +9,7 @@
 :root {
   --dark: #212c31;
   --med-blue: #19515f;
-  --med-yellow: #ffedb4;
+  /* --med-yellow: #ffedb4; */
   --lightest: #ffffff;
 
   font-size: 62.5%;
@@ -99,7 +99,6 @@ footer {
   margin-bottom: 2rem;
   padding: 1.5rem;
   
-  border: 2px solid var(--med-blue);
 }
 
 #how h4 {
@@ -108,7 +107,7 @@ footer {
 
 #how li>div {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   padding: 2rem;
 }
 
@@ -141,10 +140,39 @@ footer {
   border: 2px solid var(--dark);
 }
 
-#faq {
+form {
+  /* width: 80%; */
+  max-width: 100vh;
 }
 
+label {
+  display: block;
+}
 
+form > div {
+  display: flex;
+  justify-content: space-between;
+  /* change flex direction here for lower sizes TODO */
+  margin-bottom: 2rem;
+}
+
+form div div {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 2rem;
+}
+
+form textarea + div {
+  justify-content: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -177,7 +205,7 @@ i {
   font-size: 4rem;
 }
 
-p, ol {
+p, ol, form {
   font-family: 'Nunito', sans-serif;  /* for paragraph text */
   font-size: 1.7rem;
 }
@@ -186,7 +214,37 @@ p, ol {
   color: var(--dark);
 }
 
+#contact a {
+  color: var(--med-blue);
+}
 
+button {
+  background-color: var(--med-blue);
+  color: var(--lightest);
+  border: var(--dark);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+input, textarea, #how li {
+  border-radius: 0.5rem;
+  border: 2px solid var(--med-blue);
+}
+
+input, textarea {
+  padding: 0.7rem;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  -webkit-box-shadow: 0px 5px 29px -6px var(--med-blue); 
+  box-shadow: 0px 5px 29px -6px var(--med-blue);
+}
+
+button {
+  -webkit-box-shadow: 0px 5px 20px -6px var(--dark); 
+  box-shadow: 0px 5px 20px -6px var(--dark);
+}
 
 footer, #projects {
   background-color: var(--dark);

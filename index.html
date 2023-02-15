@@ -43,10 +43,9 @@
     
     <section id="services">
         <h2>Services</h2>
-        <p>These days, every business needs a web presence, but most don't have the time, resources, or know-how to make a site on their own. There's where I come in!</p>
+        <p>These days, every business needs a web presence, but most don't have the time, resources, or know-how to make a site on their own.</p>
         <p>I create fast, optimized, custom websites that fit your business needs. Get exactly what you need, whether that's a simple one page site or a complex web application.</p>
-        <p>Price is set per project, so you'll know the full cost before agreeing to anything - no hidden fees! Depending on your project, you may pay <b>no</b> ongoing fees.</p>
-        <p>Have questions? Keep scrolling for an overview of the process, and check out the <a href="#faq">FAQ</a> below.</p>
+        <p>Price is set per project, so you'll know the full cost before agreeing to anything - no hidden fees!</p>
         <p>When you're ready to get started, the first step is to <a href="#contact">contact</a> me to discuss your project.</p>
     </section>
 
@@ -132,28 +131,34 @@
             <p>I love to work on projects that solve real problems - even if the problem is as simple as "I need a website!"</p>
             <p>I'm particularly interested in projects that combine technology and art or textiles. I'm currently available for part-time and contract work, but will be  open to full time work around early 2023.</p>
             
-            <p>My education is in Knowledge Integration, Math, and Fine Art. Prior to freelancing, I primarily worked in education technology but have also had a smattering of other jobs, including teaching beginner knitting.</p>
+            <p>My education is in Knowledge Integration, Math, and Fine Art. Prior to freelancing, I primarily worked in education technology but have also had a smattering of other jobs, including teaching knitting.</p>
             
             <p>In my spare time, I love making textile art, walking in Gatineau Park, and collecting art and ceramics.</p>
         </div>
         <div>
             <img src="img/profile-sq-bg-ed.png" alt="A photograph showing a smiling white woman with glasses and very short brown hair in fron of a white background.">
         </div>
-    </section>
+    </section>                             
 
         
     <section id="contact">
         <h2>Contact</h2>
         <p>Have a project you think I could help with? Just want to say hi? The first step is reaching out!</p>
-        <a href="mailto:kerry.z.smart@gmail.com">kerry.z.smart@gmail.com</a>
+        <p>You can reach me at <a href="mailto:kerry.z.smart@gmail.com?subject=New Project">kerry.z.smart@gmail.com</a> or use the contact form below.</p>
         <form name="contact" method="POST" data-netlify="true">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <div>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
             <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
-            <button type="submit">Send Message</button>
+            <textarea name="message" id="message" required></textarea>
+            <div><button type="submit">Send Message</button></div>
         </form>
     </section>
 
