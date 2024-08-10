@@ -72,75 +72,6 @@ footer {
   justify-content: space-around;
 }
 
-#hello h1, #hello h2, #hello h3 {
-  margin-top: 0;
-}
-
-#hello {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  background: rgb(25,81,95);
-  background: linear-gradient(233deg, rgba(25,81,95,1) 9%, rgba(33,44,49,1) 30%, rgba(33,44,49,1) 70%, rgba(25,81,95,1) 91%); 
-  background-attachment: fixed;
-}
-
-#hello ul {
-  width: fit-content;
-  padding-left: 0;
-}
-
-#hello ul li {
-  display: inline-block;
-}
-
-#hello ul li a {
-  padding: 1rem;
-}
-
-#how ol {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding-left: 0;
-  list-style-position: inside;
-}
-
-#how li {
-  flex: 1 1 0px;
-  margin: 1rem;
-  padding: 0.4rem;
-  display: inline-block;
-}
-
-#how li > div {
-  padding: 1.5rem;
-}
-
-#portfolio {
-  display: grid;
-}
-
-#about {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#about:first-child {
-  max-width: 45%;
-}
-
-#about div>img {
-  max-width: 90%;
-  background-color: var(--lightest);
-  border-radius: 50%;
-  border: 2px solid var(--dark);
-}
-
 form {
   /* width: 80%; */
   max-width: 100vh;
@@ -186,6 +117,7 @@ h1 {
 h2 {
   font-size: 3rem;
   margin-top: 7rem;
+  text-align: center;
 }
 
 h3 {
@@ -205,6 +137,11 @@ a {
   color: var(--lightest);
 }
 
+.white-bg a {
+  color: var(--med-blue)
+}
+
+
 a:hover, i:hover {
   color: var(--contrast);
 }
@@ -219,9 +156,10 @@ p, ol, form {
   font-size: 1.7rem;
 }
 
-#services, #how, #faq, #contact, #services i, #pricing {
+.white-bg, .white-bg i {
   color: var(--dark);
 }
+
 
 button {
   background-color: var(--med-blue);
@@ -295,18 +233,46 @@ footer span {
 
 /* HELLO */
 
+
+#hello h1, #hello h2, #hello h3 {
+  margin-top: 0;
+}
+
+#hello {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: rgb(25,81,95);
+  background: linear-gradient(233deg, rgba(25,81,95,1) 9%, rgba(33,44,49,1) 30%, rgba(33,44,49,1) 70%, rgba(25,81,95,1) 91%); 
+  background-attachment: fixed;
+}
+
+#hello ul {
+  width: fit-content;
+  padding-left: 0;
+}
+
+#hello ul li {
+  display: inline-block;
+}
+
+#hello ul li a {
+  padding: 1rem;
+}
+
+
 .hello-action a button {
   margin: 3rem;
 }
 
 /* SERVICES */
 
-#services h2, #services h3 {
-  text-align: center;
-}
-
 #services h3 {
   margin-bottom: 5.5rem;
+  text-align: center;
 }
 
 .service-large-container {
@@ -314,6 +280,8 @@ footer span {
   padding: 3rem;
   padding-bottom: 6rem;
   border-radius: 2rem;
+
+  border: 2px dotted var(--shadow-lt);
 
   -webkit-box-shadow: 0px 0px 81px 10px rgba(25,81,95,0.12);
   -moz-box-shadow: 0px 0px 81px 10px rgba(25,81,95,0.12);
@@ -377,6 +345,25 @@ footer span {
 
 /* HOW */
 
+#how ol {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+#how li {
+  flex: 1 1 0px;
+  margin: 1rem;
+  padding: 0.4rem;
+  display: inline-block;
+}
+
+#how li > div {
+  padding: 1.5rem;
+}
+
 #how i {
   display: block;
   color: var(--med-blue);
@@ -389,9 +376,43 @@ footer span {
 
 /* PORTFOLIO */
 
+#portfolio {
+  display: grid;
+}
+
+
 /* PRICING */
 
+
+
+.pricing-card-container, .sample-cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-card {
+  width: 28%;
+
+}
+
 /* ABOUT */
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about:first-child {
+  max-width: 45%;
+}
+
+#about div>img {
+  max-width: 90%;
+  background-color: var(--lightest);
+  border-radius: 50%;
+  border: 2px solid var(--dark);
+}
 
 /* CONTACT */
 

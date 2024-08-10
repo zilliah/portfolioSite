@@ -30,7 +30,7 @@
         </nav>
     </header>
 
-    <section id="hello">
+    <section id="hello" class="dark-bg">
         <h1>Kerry Smart</h1>
         <h2>Hello, I make websites!</h2>
         <!-- <ul>
@@ -40,13 +40,13 @@
         </ul> -->
 
         <div class="hello-action">
-            <a href="#services"><button>I need a website</button></a>
+            <a href="#services"><button>See What I Offer</button></a>
             <a href="#contact"><button>Contact Kerry</button></a>
         </div>
 
     </section>
     
-    <section id="services">
+    <section id="services" class="white-bg">
         <h2>Services</h2>
         
         <div class="service-large-container">
@@ -56,7 +56,7 @@
                     <p>I make beautiful, fast, responsive, and accessible websites.</p>
                     <p>Every business needs a website, but most owners don't have the time, resources, or know-how to make a site on their own.</p>
                     <p>Why not let me take care of it for you?</p>
-                    <p>Contact me for a free consultation - no pressure to commit if I'm not who you're looking for!</p>
+                    <p>Contact me for a free consultation - no pressure to commit if it's not what you're looking for!</p>
                     <h4>Ready to get started?</h4>
                     <a href="#contact"><button>Contact Kerry</button></a>
                 </div>
@@ -66,7 +66,7 @@
                     <p>I work to your budget and your specifications: only pay for what you need.</p>
                     <p><b>No hidden fees</b>: the price is set per project and you'll know the full cost before committing.</p>
                     <p><b>No ongoing fees</b>: pay once for the website and it's yours forever.</p>
-                    <p><b>Free</b> hosting for simple sites.</p>
+                    <p><b>Free</b> hosting for basic sites.</p>
                     <a href="#pricing"><button>See Pricing</button></a>
                 </div>
             </div>
@@ -76,18 +76,18 @@
         <div class="flex-container">
             <div class="service-card left">
                 
-                <h4><i class="fa-solid fa-bell-concierge"></i> Ongoing support</h4>
-                <p>If you want reliable, friendly, and accessible support after your website is finished, I have two options available:</p>
+                <h4><i class="fa-solid fa-bell-concierge"></i> Ongoing Support</h4>
+                <p>If you want reliable, friendly, and accessible support after your website is finished, there are two options available:</p>
 
-                <h5>[Retainer]</h5>
+                <h5>Retainer</h5>
                 <p>A small monthly fee guarantees I'll always have an hour available for you each month.</p>
                 <p>This is typically covers routine content updates, styling tweaks, etc.</p>
-                <p>If larger updates are needed, you also get a discounted hourly rate and priority over non-retainer clients.[TODO does this belong here or in pricing?]</p>
+                <p>If larger updates are needed, you also get a discounted hourly rate and priority over non-retainer clients.</p>
                 <p>This service is completely optional, and is available in 6 month increments. You can opt in at any time, even if I didn't create your website!</p>
 
-                <h5>[As Needed]</h5>
+                <h5>As Needed</h5>
                 <p>If you don't anticipate needing regular support, you can reach out to me for support when you need it.</p>
-                <p>I'm always happy to help, but it will be subject to my availability, and clients with a [retainer] are prioritised.</p>
+                <p>I'm always happy to help, but it will be subject to my availability, and clients with a retainer are prioritised.</p>
 
 
                 <a href="#contact"><button>Contact Kerry for Support</button></a>
@@ -177,7 +177,7 @@
         </div>
     </section> -->
 
-    <section  id="portfolio">
+    <section  id="portfolio" class="dark-bg">
         <h2>Portfolio</h2>
         <div>liz site</div>
         <div>mega games site</div>
@@ -186,56 +186,81 @@
     </section>
 
         
-    <section id="pricing">
+    <section id="pricing" class="white-bg">
         <div>
             <h2>Pricing</h2>
-            <div>
-                <h3>Priced Per Project</h3>
-                <p>Price is set per project and agreed on in advance. No unexpected or hidden fees!</p>
-                <p>No ongoing fees and free hosting</p>
-            </div>
-            <div>
-                <h3>Set to Your Budget</h3>
-                <p>Get a site you can afford: I'll work to your budget.</p>
-            </div>
-            <div>
-                <h3>Made to Your Needs</h3>
-                <p>No extra bells and whistles required: you only pay for what you actually need.</p>
+            <div class="pricing-card-container">
+                <div class="pricing-card">
+                    <h3>Project-Based Pricing</h3>
+                    <p></p>
+                    <p>Price is set per project and agreed upon in advance. No unexpected or hidden fees!</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Made For Your Budget</h3>
+                    <p>Get a site you can afford: I'll work to your budget.</p>
+                    <p>No extra bells and whistles required: you only pay for what you actually need.</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Made to Your Needs</h3>
+                </div>
+                <div class="pricing-card">
+                    <h3>No Ongoing Fees</h3>
+                    <p>Once you've paid for your website, it's yours forever. No subscription fees or ongoing costs.</p>
+                    <p><b>Free</b> hosting for most sites.</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Reliable, Flexible Support</h3>
+                    <p>$50 per month guarantees 1 hour of my time every month.</p>
+                    <p>[TODO do i want minimum time here? 6mo, 3mo?]</p>
+                    <p>As needed - charge slightly higher, 60/hr?</p>
+                    <p>Typically this service is charged hourly, and I can give you a cost estimate ahead of time. Larger updates can be charged on a project basis. </p>
+                    <p>completely optiional</p>
+                </div>
             </div>
 
             <div>
                 <h3>Sample Prices</h3>
-                <h4>Simple one page site</h4>
-                <p>$500? - works for most small businesses</p>
+                <p></p>
+                <div class="sample-cards-container">
+                    <div class="sample-card">
+                        <h4>Simple one page site</h4>
+                        <p>$500? + 13% HST - works for most small businesses</p>
+                    </div>
 
-                <h4>Additional pages</h4>
-                <p>+$100 per page</p>
+                    <div class="sample-card">
+                        <h4>Additional pages</h4>
+                        <p>+$100 per page</p>
+                    </div>
+                    <div class="sample-card">
+                        <h4>Simplest Site Possible</h4>
+                        <p>$50 </p>
+                        <p>1 page, basic information, no revisions, all assets (content, photo, links, colours, fonts) must be given in advance</p>
+                        <p>TODO make a template for this before offering, have a sample</p>
+                        <p>Add a contact form: $50</p>
+                    </div>
 
-                <h4>Simplest Site Possible</h4>
-                <p>$50 </p>
-                <p>1 page, basic information, no revisions, all assets (content, photo, links, colours, fonts) must be given in advance</p>
-                <p>TODO make a template for this before offering, have a sample</p>
-                <p>Add a contact form: $50</p>
 
-                <h4>Ongoing Support</h4>
-                <p>$50 per month guarantees 1 hour of my time every month.</p>
-                <p>[TODO do i want minimum time here? 6mo, 3mo?]</p>
-                <p>As needed - charge slightly higher, 60/hr?</p>
-                <p>Typically this service is charged hourly, and I can give you a cost estimate ahead of time. Larger updates can be charged on a project basis. </p>
+
+                    <div class="sample-card">
+                        <h4>Ecommerce Sites, Web Applications</h4>
+                        <p>Highly variable  - <a href="#contact">contact me</a> to discuss your needs.</p>
+                        <p>TODO set up a shopify store for myself for pottery and see how hard it is</p>
+                    </div>
+                </div>
 
             </div>
-            <a href="#contact"><button>Contact Kerry</button></a>
+            <a href="#contact"><button>Contact Kerry To Get Started</button></a>
         </div>
     </section>
 
 
 
 
-    <section id="about">
+    <section id="about" class="dark-bg">
         <div>
             <h2>About</h2>
             <p>I'm Kerry Smart, a web developer based near Ottawa, Ontario. I've been making websites on and off for the last ten years (among various other things). I particularly enjoy working with artists and small business owners.</p>
-            <p>I'm currently available for part-time and contract work. I don't offer discounts but I'm open to bartering. This is entirely at my discretion though, so no promises. Right now I'm looking for kiln/pottery wheel rentals, pottery or voice lessons, and shelves.</p>
+            <p>I'm currently available for part-time and contract work. I don't offer discounts but I'm open to bartering. This is entirely at my discretion - no promises! Right now I'm looking for kiln space, pottery wheel rental, pottery or voice lessons, and I'm always interested in art.</p>
             <p>I also make <a href="https://kerrysm.art" target="_blank">pottery</a>, <a href="https://kerrrry.ca/gallery/" target="_blank">cross stitch</a>, and do <a href="https://www.instagram.com/verypuzzles/" target="_blank">puzzle reviews</a>. </p>
             
 
@@ -246,7 +271,7 @@
     </section>                             
 
         
-    <section id="contact">
+    <section id="contact" class="white-bg">
         <h2>Contact</h2>
         <p>Send me a message to get started. </p>
         <p>You can reach me at <a href="mailto:kerry.z.smart@gmail.com?subject=New Project">kerry.z.smart@gmail.com</a> or use the contact form below.</p>
@@ -279,7 +304,7 @@
         </form>
     </section>
 
-    <footer>
+    <footer class="dark-bg">
         <ul>
             <li><a href="https://github.com/zilliah" target="_blank" aria-label="Github Profile"><i class="fa-brands fa-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/kerryzsmart/" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a></li>
