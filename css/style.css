@@ -195,7 +195,7 @@ img {
   border-radius: 1rem;
 }
 
-input, textarea, #how li {
+input, textarea {
   border-radius: 0.5rem;
   border: 2px solid var(--med-blue);
 }
@@ -210,18 +210,12 @@ input:focus, textarea:focus {
   box-shadow: 0px 5px 29px -6px var(--med-blue);
 }
 
-button {
 
-}
-
-footer, #portfolio {
+footer, #portfolio, #faq {
   background-color: var(--dark);
 }
 
-#about {
-  background: var(--med-blue);
-  background: linear-gradient(180deg, rgba(33,44,49,1) 0%, rgba(25,81,95,1) 66%);
-}
+
 
 footer span {
   font-size: 1.2rem;
@@ -304,7 +298,8 @@ footer span {
 .service-large p {
   margin-top: 0;
   margin-bottom: 2rem;
-  line-height: 2rem;
+  line-height: 2.2rem;
+  font-size: 1.9rem;
 }
 
 .service-large img {
@@ -343,36 +338,6 @@ footer span {
 
 
 
-/* HOW */
-
-#how ol {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding-left: 0;
-  list-style-position: inside;
-}
-
-#how li {
-  flex: 1 1 0px;
-  margin: 1rem;
-  padding: 0.4rem;
-  display: inline-block;
-}
-
-#how li > div {
-  padding: 1.5rem;
-}
-
-#how i {
-  display: block;
-  color: var(--med-blue);
-  font-size: 4rem;
-}
-
-#how h2, #how i {
-  text-align: center;
-}
 
 /* PORTFOLIO */
 
@@ -392,10 +357,17 @@ footer span {
 
 .pricing-card {
   width: 28%;
+}
 
+ .centre {
+  text-align: center;
 }
 
 /* ABOUT */
+#about {
+  background: var(--med-blue);
+  background: linear-gradient(0deg, rgba(33,44,49,1) 0%, rgba(25,81,95,1) 66%);
+}
 
 #about {
   display: flex;
@@ -407,11 +379,23 @@ footer span {
   max-width: 45%;
 }
 
-#about div>img {
+#about div > img {
   max-width: 90%;
   background-color: var(--lightest);
   border-radius: 50%;
   border: 2px solid var(--dark);
+}
+
+/* FAQ */
+
+#faq h3 {
+  color: var(--contrast);
+}
+
+#faq li {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 /* CONTACT */
