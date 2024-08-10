@@ -10,12 +10,15 @@
 :root {
   --dark: oklch(28.5% 0.018 227.36);
   --med-blue: oklch(40.53% 0.061 217.75);
-  --contrast: oklch(81.35% 0.14 80.05);
-  --contrast-lt: oklch(69.25% 0.03 176);
   --lightest: #ffffff;
+  
+  --shadow-lt: oklch(69.25% 0.03 176);
+
+  --contrast: oklch(81.35% 0.14 80);
+  --contrast-lt: oklch(81.35% 0.14 80 / 25%);
+  
 
   scroll-behavior: smooth;
-
   font-size: 62.5%;
   font-family: 'Quicksand', sans-serif;  /* for headers TODO different one*/
   color: var(--lightest);
@@ -240,14 +243,14 @@ button:hover {
   color: var(--dark);
   cursor: pointer;
 
-  -webkit-box-shadow: 0px 5px 20px -6px var(--contrast-lt); 
-  box-shadow: 0px 5px 20px -6px var(--contrast-lt);
+  -webkit-box-shadow: 0px 5px 20px -6px var(--shadow-lt); 
+  box-shadow: 0px 5px 20px -6px var(--shadow-lt);
 }
 
 button:active {
   top: 2px;
-  -webkit-box-shadow: inset 0px 5px 20px -6px var(--contrast-lt); 
-  box-shadow: inset 0px 5px 20px -6px var(--contrast-lt);
+  -webkit-box-shadow: inset 0px 5px 20px -6px var(--shadow-lt); 
+  box-shadow: inset 0px 5px 20px -6px var(--shadow-lt);
 }
 
 img {
@@ -307,7 +310,7 @@ footer span {
 }
 
 .service-large-container {
-  margin: 7rem 0 10rem 0;
+  margin: 7rem 0 10vh 0;
   padding: 3rem;
   padding-bottom: 6rem;
   border-radius: 2rem;
@@ -336,22 +339,41 @@ footer span {
   line-height: 2rem;
 }
 
+.service-large img {
+  object-fit: contain;
+  width: 100%;
+}
+
 .service-card {
   width: 30%;
+  padding: 5%;
+  border: 2px dotted var(--shadow-lt);
+  border-radius: 2rem;
 }
 
 .service-card.left {
-  width: 50%;
+  width: 55%;
+}
+
+.service-card.right {
+  align-self: flex-start;
+}
+
+.service-card h4 {
+  margin-top: 0;
 }
 
 .service-card i {
   font-size: 3rem;
 }
 
-#services img {
-  object-fit: contain;
-  width: 100%;
+.service-card a {
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
 }
+
+
 
 /* HOW */
 
