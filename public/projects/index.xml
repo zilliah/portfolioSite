@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Kerry Smart</title>
+    <link>https://kerrysmart.ca/projects/</link>
+    <description>Recent content in Projects on Kerry Smart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kerrysmart.ca/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ottawa Mega Games</title>
+      <link>https://kerrysmart.ca/projects/omg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kerrysmart.ca/projects/omg/</guid>
+      <description>A website for the Ottawa Mega Games group: they run large-scale, in-person games in Ottawa, ON.
+See the website here
+Built with HTML and CSS. Github repo.</description>
+    </item>
+    
+    <item>
+      <title>Etch A Sketch</title>
+      <link>https://kerrysmart.ca/projects/eas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kerrysmart.ca/projects/eas/</guid>
+      <description>An online etch-a-sketch! Right-click on the board to switch between drawing and erasing.
+Play with it here
+Built with HTML, CSS, vanilla JavaScript. Github repo.</description>
+    </item>
+    
+    <item>
+      <title>Drink Me: Find Your Perfect Cocktail</title>
+      <link>https://kerrysmart.ca/projects/drink-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kerrysmart.ca/projects/drink-me/</guid>
+      <description>A cocktail picker: find cocktails based on name, ingredients, or get a random cocktail.
+See the website here
+Built with HTML and CSS. Github repo.</description>
+    </item>
+    
+  </channel>
+</rss>
