@@ -1,6 +1,6 @@
 ---
 title: About
-image: kerry_avatar.png
+image: profile.png
 weight: "8"
 
 ---
