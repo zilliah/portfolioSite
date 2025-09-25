@@ -1,6 +1,6 @@
 ---
 title: Etch A Sketch
-weight: "4"
+weight: "5"
 resources: []
 project_timeframe: ''
 

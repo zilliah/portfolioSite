@@ -19,9 +19,9 @@ DefaultContentLanguage           = "en"                    # Default language fo
     # Configure the home page
     [params.home]
         introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
+        showLatest               = false                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        allPostsArchiveFormat    = true                    # show all posts in an archive format
+        allPostsArchiveFormat    = false                # show all posts in an archive format
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
         timeZone                 = "America/Toronto"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -31,9 +31,9 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
     # Share buttons on blog post pages
     [params.share]
-        twitter                  = true
-        facebook                 = true
-        pinterest                = true
+        twitter                  = false
+        facebook                 = false
+        pinterest                = false
 
     # To enable giscus, the GitHub-discussions-based comment section,
     # input the repository for the discussions below. For more details, see
@@ -61,10 +61,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         url = "https://github.com/zilliah"  # For a direct email link, use "mailto:test@example.org".
         icon = "github" # icon name without the 'fa-'
         icon_pack = "fa-brands"
-    [[params.social]]
-        url   = "https://twitter.com/kerryzsmart"
-        icon  = "twitter" # icon name without the 'fa-'
-        icon_pack = "fab"
+
     [[params.social]]
         url   = "https://www.linkedin.com/in/kerryzsmart/"
         icon  = "linkedin-in" # icon name without the 'fa-'
@@ -84,15 +81,27 @@ DefaultContentLanguage           = "en"                    # Default language fo
     #     html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
 
-# If you don't want to use the default menu, you can define one by yourself
+#If you don't want to use the default menu, you can define one by yourself
+[[menu.main]]
+    name    = "Home"
+    url     = "/"
+    weight  = 1
+[[menu.main]]
+    name    = "About"
+    url     = "#about"
+    weight  = 2
+[[menu.main]]
+    name    = "Projects"
+    url     = "#projects"
+    weight  = 3
+[[menu.main]]
+    name    = "Contact"
+    url     = "#contact"
+    weight  = 4
 # [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+#     name    = "Resume"
+#     url     = ""
+#     weight  = 5
 
 # We only use tag as a taxonomies
 # You can add more by yourself
@@ -126,4 +135,4 @@ DefaultContentLanguage           = "en"                    # Default language fo
         title            = "Kerry Smart"
         [languages.en.params]
             description  = "Kerry Smart is a full stack web developer"   # Max 160 characters show in search results
-            footerText   = "Built with [Hugo](https://gohugo.io/) © Kerry Smart 2022 "                      # Text to override default footer text (markdown allowed)
+            footerText   = "Built with [Hugo](https://gohugo.io/) © Kerry Smart 2025 "                      # Text to override default footer text (markdown allowed)
