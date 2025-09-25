@@ -98,10 +98,10 @@ DefaultContentLanguage           = "en"                    # Default language fo
     name    = "Contact"
     url     = "#contact"
     weight  = 4
-# [[menu.main]]
-#     name    = "Resume"
-#     url     = ""
-#     weight  = 5
+[[menu.main]]
+    name    = "Resume"
+    url     = "uploads/Kerry_Smart_Resume.pdf"
+    weight  = 5
 
 # We only use tag as a taxonomies
 # You can add more by yourself
