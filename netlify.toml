@@ -1,0 +1,9 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[[redirects]]
+  from = "/rifter/*"
+  to = "https://kerrysmart.netlify.app/rifter/:splat"
+  status = 200
+  force = true
